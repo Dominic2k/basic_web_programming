@@ -45,7 +45,7 @@
             $kq = "Học sinh yếu kém tệ hại";
         }
     ?>
-    <form class="form_score" action="index.php" method="POST">
+    <form class="form_score" action="myScore.php" method="POST">
         <p class="title">Bảng điểm của em</p>
         <label for="">Semester1: 
             <input class="input" type="number" name="smt1" value="<?php echo $smt1; ?>">
@@ -71,7 +71,7 @@
         <br>
         <p class='kq'> <?php echo $kq; ?></p>
         <button type="submit">Ok</button>
-        <button type="reset" onclick="window.location.href='http://localhost/dat_php/index.php'">Cancel</button>
+        <button type="reset" onclick="window.location.href='http://localhost/dat_php/php/function/myScore.php'">Cancel</button>
     </form>
 </body>
 </html>
